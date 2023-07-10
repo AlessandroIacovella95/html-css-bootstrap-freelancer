@@ -11,6 +11,11 @@ img{
     height: 100px;
 }
 
+#jumbotron{
+    background-color: #1ABC9C;
+    min-height: 300px;
+}
+
 .box{
     padding: .5rem;
     border: 1px dashed currentColor;
@@ -19,6 +24,5 @@ img{
 }
 
 .anchor{
-    color: black;
    text-decoration: none; 
 }
