@@ -20,6 +20,7 @@ img{
 
 section:nth-child(odd){
     background-color: #1ABC9C;
+    color: white;
 }
 
 .box{
@@ -33,6 +34,6 @@ section:nth-child(odd){
    text-decoration: none; 
 }
 
-.btn{
-    text-align: center;
+.message-box{
+    padding-bottom: 5rem;
 }
