@@ -43,10 +43,6 @@ section:nth-child(odd){
     background-color: pink;
 }
 
-.anchor{
-   text-decoration: none; 
-}
-
 .message-box{
     padding-bottom: 5rem;
 }

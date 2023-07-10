@@ -18,9 +18,9 @@
                Menù
             </div>
             <div class="box d-none d-md-block">
-                <a href="#" class="px-2 anchor text-dark">Portfolio</a>
-                <a href="#" class="px-2 anchor text-dark">About</a>
-                <a href="#" class="px-2 anchor text-dark">Contact</a>               
+                <a href="#" class="px-2 anchor text-dark text-decoration-none">Portfolio</a>
+                <a href="#" class="px-2 anchor text-dark text-decoration-none">About</a>
+                <a href="#" class="px-2 anchor text-dark text-decoration-none">Contact</a>               
             </div>
         </div>
     </header>
@@ -102,7 +102,7 @@
                     </div>
                 </div>
                 <div class="container d-flex justify-content-center">
-                    <button class="mb-4">Download</button>
+                    <button class="mb-4 btn text-light border">Download</button>
                 </div>
             </div>
         </section>
@@ -112,25 +112,30 @@
                 <div class="box mb-3">
                     Titolo
                 </div>
-                <div class="box mb-3">
-                    Trattino-stella-trattino
+                <div class="mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control border-0 border-bottom" name="name" id="name"
+                        placeholder="Inserisci il tuo nome">
                 </div>
-                <div class="mb-2 mx-4 pb-4 border-bottom">
-                    <span class="p-2">Name</span>
+                <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control border-0 border-bottom" name="email" id="email"
+                        placeholder="Inserisci la tua email">
                 </div>
-
-                <div class="mb-2 mx-4 pb-4 border-bottom">
-                    <span class="p-2">Email Address</span>
+                <div class="mb-3">
+                      <label for="telephone" id="telephone" class="form-label">Phone number</label>
+                      <input type="telephone" class="form-control border-0 border-bottom" id="telephone"
+                        placeholder="Inserisci il tuo numero di telefono">
                 </div>
-
-                <div class="mb-2 mx-4 pb-4 border-bottom">
-                    <span class="p-2">Phone Number</span>
+                <div class="mb-3">
+                      <label for="Textarea" class="form-label">Messaggio</label>
+                      <textarea class="form-control border-0 border-bottom" id="textarea"
+                        placeholder="Inserisci il tuo messaggio" rows="5"></textarea>
                 </div>
-
-                <div class="mb-2 mx-4 border-bottom message-box">
-                    <span class="p-2">Message</span>
+                <div>
+                    <button type="button" class="btn btn-primary border-0 bck-greenblue">Send</button>
                 </div>
-                <button class="mx-4 mb-4 p2">Send</button>
+            </div>
             </div>
         </section>  
     </main>
