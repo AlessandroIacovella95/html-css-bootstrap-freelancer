@@ -1,8 +1,8 @@
 .bordered{
     border: 2px dashed currentColor;
     text-align: center;
-    line-height: 80px;
     min-height: 80px;
+    background-color: pink;
 }
 
 img{
@@ -16,6 +16,19 @@ img{
 
 #jumbotron, #portfolio, #about{
     min-height: 300px;
+}
+
+#footer-top{
+    background-color: #3A546D;
+}
+
+#footer-bottom{
+    background-color: #2C3E50;
+}
+
+#footer-top, #footer-bottom{
+    min-height: 150px;
+    color: white;
 }
 
 section:nth-child(odd){
