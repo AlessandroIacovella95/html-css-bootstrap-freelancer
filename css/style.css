@@ -1,5 +1,8 @@
 .bordered{
     border: 2px dashed currentColor;
+    text-align: center;
+    line-height: 80px;
+    min-height: 80px;
 }
 
 img{
@@ -11,9 +14,12 @@ img{
     height: 100px;
 }
 
-#jumbotron{
-    background-color: #1ABC9C;
+#jumbotron, #portfolio, #about{
     min-height: 300px;
+}
+
+section:nth-child(odd){
+    background-color: #1ABC9C;
 }
 
 .box{
