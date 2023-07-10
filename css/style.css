@@ -32,3 +32,7 @@ section:nth-child(odd){
 .anchor{
    text-decoration: none; 
 }
+
+.btn{
+    text-align: center;
+}
