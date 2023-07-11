@@ -1,13 +1,9 @@
-/***********************
-        RESET
-*/**********************
+/* RESET */
 img{
     max-width: 100%;
 }
 
-/*********************** 
-        SECTION
-*/**********************
+/* SECTION */
 
 section:nth-child(odd){
     background-color: #1ABC9C;
@@ -27,26 +23,20 @@ section:nth-child(odd){
     color: #2C3E50;  
 }
 
-/***********************
-        HEADER
-*/**********************
+/* HEADER */
 
 #header{
     background-color: #2C3E50;
 }
 
-/***********************
-        PORTFOLIO
-*/**********************
+/* PORTFOLIO */
 
 #portfolio .white_bar{
     background-color: #2C3E50;
     width: 15%;
 }
 
-/***********************
-        ABOUT
-*/**********************
+/* ABOUT */
 
 #about .white_bar{
     width: 8%;
@@ -57,18 +47,14 @@ section:nth-child(odd){
 
 }
 
-/***********************
-        CONTACT-ME
-*/**********************
+/* CONTACT-ME */
 
 #contact_me .white_bar{
     background-color: #2C3E50;
     width: 8%;
 }
 
-/***********************
-         FOOTER
-*/**********************
+/* FOOTER */
 
 #footer_top{
     background-color: #3A546D;
