@@ -6,11 +6,7 @@ img{
     background-color: #2C3E50;
 }
 
-#jumbotron, #portfolio, #about{
-    min-height: 300px;
-}
-
-#footer-top{
+#footer_top{
     background-color: #3A546D;
 }
 
@@ -18,8 +14,7 @@ img{
     background-color: #2C3E50;
 }
 
-#footer-top, #footer-bottom{
-    min-height: 150px;
+#footer_top, #footer-bottom{
     color: white;
 }
 
@@ -28,7 +23,7 @@ section:nth-child(odd){
     color: white;
 }
 
-#portfolio h4{
+#portfolio, #contact_me h4{
     color: #2C3E50;
 }
 
@@ -37,21 +32,25 @@ section:nth-child(odd){
     width: 15%;
 }
 
-#portfolio .fa-star{
+#portfolio, #contact_me .fa-star{
     color: #2C3E50;  
 }
 
 #about .white_bar{
-    width: 10%;
+    width: 8%;
 }
 
+#contact_me .white_bar{
+    background-color: #2C3E50;
+    width: 8%;
+}
 
-
-.box{
-    padding: .5rem;
-    border: 1px dashed currentColor;
-    text-align: center;
-    background-color: pink;
+._circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
 }
 
 .white_bar{
