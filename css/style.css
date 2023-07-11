@@ -41,6 +41,12 @@ section:nth-child(odd){
     color: #2C3E50;  
 }
 
+#about .white_bar{
+    width: 10%;
+}
+
+
+
 .box{
     padding: .5rem;
     border: 1px dashed currentColor;
