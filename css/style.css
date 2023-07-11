@@ -53,6 +53,11 @@ section:nth-child(odd){
     height: 50px;
 }
 
+._bottom_form{
+    background-color: #1ABC9C;
+
+}
+
 .white_bar{
     height: 4px;
 }
