@@ -1,17 +1,9 @@
-.bordered{
-    border: 2px dashed currentColor;
-    text-align: center;
-    min-height: 80px;
-    background-color: pink;
-}
-
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 #header{
     background-color: #2C3E50;
-    height: 100px;
 }
 
 #jumbotron, #portfolio, #about{
@@ -36,6 +28,19 @@ section:nth-child(odd){
     color: white;
 }
 
+#portfolio h4{
+    color: #2C3E50;
+}
+
+#portfolio .white_bar{
+    background-color: #2C3E50;
+    width: 15%;
+}
+
+#portfolio .fa-star{
+    color: #2C3E50;  
+}
+
 .box{
     padding: .5rem;
     border: 1px dashed currentColor;
@@ -43,6 +48,7 @@ section:nth-child(odd){
     background-color: pink;
 }
 
-.message-box{
-    padding-bottom: 5rem;
+.white_bar{
+    height: 4px;
 }
+

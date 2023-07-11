@@ -1,84 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- META LINK -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITOLO -->
     <title>Bootstrap</title>
+    <!-- LINK FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- LINK BOOSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- LINK CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- HEADER -->
     <header id="header">
-        <div class="container h-100 d-flex align-items-center">
-            <div class="box me-auto">
-                Logo
+        <div class="container d-flex align-items-center">
+            <div class="me-auto my-4">
+                <!-- TITOLO -->
+                <h4 class="text-uppercase text-light fw-bold">Start Bootstrap</h4>
             </div>
-            <div class="box d-md-none">
-               Menù
+            <div class="d-md-none my-4">
+                <!-- ICONA MENU TENDINA -->
+                <i class="fa-solid fa-bars fs-2 py-1 px-2 text-secondary border rounded"></i>
             </div>
-            <div class="box d-none d-md-block">
-                <a href="#" class="px-2 anchor text-dark text-decoration-none">Portfolio</a>
-                <a href="#" class="px-2 anchor text-dark text-decoration-none">About</a>
-                <a href="#" class="px-2 anchor text-dark text-decoration-none">Contact</a>               
+            <!-- MENU ESTESO -->
+            <div class="d-none d-md-block my-4">
+                <a href="#" class="px-2 anchor text-light text-decoration-none">Portfolio</a>
+                <a href="#" class="px-2 anchor text-light text-decoration-none">About</a>
+                <a href="#" class="px-2 anchor text-light text-decoration-none">Contact</a>               
             </div>
         </div>
     </header>
 
+    <!-- INIZIO MAIN -->
     <main>
-        <section id="jumbotron">
-            <div class="container py-4">
-                <div class="box mb-3">
-                    Immagine
+        <!-- JUMBOTRON -->
+        <section id="jumbotron" class="text-center py-4">
+            <div class="container">
+                <div class="mb-3">
+                    <!-- IMMAGINE AVATAR -->
+                    <img class="img-fluid w-50" src="./img/avatar.svg" alt="avatar">
                 </div>
-                <div class="box mb-3">
-                    Titolo
+                <div class="mb-3">
+                    <!-- TITOLO SEZIONE JUMBOTRON -->
+                    <h1 class="text-uppercase fw-bold">Start Boostrap</h1>
                 </div>
-
-                <div class="box mb-3">
-                    Trattino-stella-trattino
+                <!-- STELLA E WHITE BAR -->
+                <div class="mb-3 d-flex justify-content-center align-items-center">
+                    <div class="rounded white_bar bg-light w-25 me-2"></div>
+                    <i class="fa-solid fa-star text-light fs-1"></i>
+                    <div class="rounded white_bar bg-light w-25 ms-2"></div>
                 </div>
-
-                <div class="box mb-3">
-                    Graphic Artist-Web Designer-Illustrator
+                <!-- SKILLS AVATAR -->
+                <div class="mb-3">
+                    <span class="text-uppercase fs-6 fw-bold">Graphic Artist - Web Designer - Illustrator</span>
                 </div>    
             </div>
         </section>
-
+        <!-- SEZIONE PORTFOLIO -->
         <section id="portfolio">
-            <div class="container py-4">
-                <div class="box mb-3">
-                    Titolo
+            <div class="container my-5">
+                <div class="mb-4">
+                    <!-- TITOLO PORTFOLIO -->
+                    <h4 class="text-uppercase fw-bold text-center mb-4">Portfolio</h4>
+                    <!-- STELLA E WHITE BAR -->
+                    <div class="mb-3 d-flex justify-content-center align-items-center">
+                        <div class="rounded white_bar me-2"></div>
+                        <i class="fa-solid fa-star fs-2"></i>
+                        <div class="rounded white_bar ms-2"></div>
+                    </div>
                 </div>
-                <div class="box mb-3">
-                    Trattino-stella-trattino
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4 mb-3 bordered">
-                        Immagine1
+                <div class="row g-4">
+                    <!-- PRIMA COL -->
+                    <div class="col-12 col-md-6 col-lg-4 bordered">
+                        <!-- PRIMA CARD -->
+                        <div class="cards">
+                            <!-- IMMAGINE CASA -->
+                            <img class="img-fluid rounded-4" src="./img/cabin.png" alt="casa">
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-3 bordered">
-                        Immagine2
+                    <!-- SECONDA COL -->
+                    <div class="col-12 col-md-6 col-lg-4 bordered">
+                        <!-- SECONDA CARD -->
+                        <div class="cards">
+                            <!-- IMMAGINE TORTA -->
+                            <img class="img-fluid rounded-4" src="./img/cake.png" alt="cake">
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-3 bordered">
-                        Immagine3
+                    <!-- TERZA COL -->
+                    <div class="col-12 col-md-6 col-lg-4 bordered">
+                        <!-- IMMAGINE CARD -->
+                        <div class="cards">
+                            <!-- IMMAGINE CIRCO -->
+                            <img class="img-fluid rounded-4" src="./img/circus.png" alt="circus">
+                        </div>
                     </div>
-
-                    <div class="col-12 col-md-6 col-lg-4 mb-3 bordered">
-                        Immagine4
+                    <!-- QUARTA COL -->
+                    <div class="col-12 col-md-6 col-lg-4 bordered">
+                        <!-- QUARTA CARD -->
+                        <div class="cards">
+                            <!-- IMMAGINE GIOCO -->
+                            <img class="img-fluid rounded-4" src="./img/game.png" alt="game">
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-3 bordered">
-                        Immagine5
+                    <!-- QUINTA COL -->
+                    <div class="col-12 col-md-6 col-lg-4 bordered">
+                        <!-- QUINTA CARD -->
+                        <div class="cards">
+                            <!-- IMMAGINE CASSAFORTE -->
+                            <img class="img-fluid rounded-4" src="./img/safe.png" alt="safe">
+                        </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4 mb-3 bordered">
-                        Immagine6
+                    <!-- SESTA COL -->
+                    <div class="col-12 col-md-6 col-lg-4 bordered">
+                        <!-- SESTA CARD -->
+                        <div class="cards">
+                            <!-- IMMAGINE SOTTOMARINO -->
+                            <img class="img-fluid rounded-4" src="./img/submarine.png" alt="submarine">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="about">
-            <div class="container py-4">
+        <section id="about" class="py-4">
+            <div class="container my-5">
                 <div class="box mb-3">
                     Titolo
                 </div>
@@ -87,14 +135,14 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-10 col-md-5 mb-2 d-flex">
-                        <div class="cards px-3">
+                        <div class="cards mt-4">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quidem corporis consequuntur quia consequatur fugit vitae sit quo voluptas quos. Sit non consequatur sed adipisci! Nam odio sed eum natus.
                             </p>
                         </div>
                     </div>
                     <div class="col-10 col-md-5 mb-2">
-                        <div class="cards px-3">
+                        <div class="cards mt-4">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quidem corporis consequuntur quia consequatur fugit vitae sit quo voluptas quos. Sit non consequatur sed adipisci! Nam odio sed eum natus.
                             </p>
@@ -108,32 +156,34 @@
         </section>
 
         <section id="contact-me">
-            <div class="container py-4">
+            <div class="container my-5">
                 <div class="box mb-3">
                     Titolo
                 </div>
-                <div class="mb-3">
-                      <label for="name" class="form-label">Name</label>
-                      <input type="text" class="form-control border-0 border-bottom" name="name" id="name"
-                        placeholder="Inserisci il tuo nome">
-                </div>
-                <div class="mb-3">
-                      <label for="email" class="form-label">Email</label>
-                      <input type="email" class="form-control border-0 border-bottom" name="email" id="email"
-                        placeholder="Inserisci la tua email">
-                </div>
-                <div class="mb-3">
-                      <label for="telephone" id="telephone" class="form-label">Phone number</label>
-                      <input type="telephone" class="form-control border-0 border-bottom" id="telephone"
-                        placeholder="Inserisci il tuo numero di telefono">
-                </div>
-                <div class="mb-3">
-                      <label for="Textarea" class="form-label">Messaggio</label>
-                      <textarea class="form-control border-0 border-bottom" id="textarea"
-                        placeholder="Inserisci il tuo messaggio" rows="5"></textarea>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-primary border-0 bck-greenblue">Send</button>
+                <div class="row justify-content-center">
+                    <div class="col-10 mt-4">
+                        <form action="https://www.google.com" method="post">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control border-0 border-bottom" name="name" id="name" required placeholder="Inserisci il tuo nome">
+                          </div>
+                          <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control border-0 border-bottom" name="email" id="email" required placeholder="Inserisci la tua email">
+                          </div>
+                          <div class="mb-3">
+                                <label for="telephone" class="form-label">Phone number</label>
+                                <input type="text" class="form-control border-0 border-bottom" name="telephone" id="telephone" required placeholder="Inserisci il tuo numero di telefono">
+                          </div>
+                          <div class="mb-3">
+                                <label for="textarea" class="form-label">Messaggio</label>
+                                <textarea class="form-control border-0 border-bottom" name="textarea" id="textarea" required placeholder="Inserisci il tuo messaggio" rows="5"></textarea>
+                          </div>
+                          <div>
+                              <button class="btn btn-primary border-0">Send</button>
+                          </div>
+                        </form>   
+                    </div>
                 </div>
             </div>
             </div>
